@@ -1,4 +1,5 @@
 require "nokogiri"
+require "open-uri"
 
 module Ecb
   class Bank < Money::Bank::Base
