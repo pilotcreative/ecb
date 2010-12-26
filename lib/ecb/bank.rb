@@ -2,7 +2,7 @@ require "nokogiri"
 require "open-uri"
 
 module Ecb
-  class Bank < Money::Bank::Base
+  class Bank < ::Money::Bank::Base
     attr_accessor :url, :rate
 
     def initialize(options = {})

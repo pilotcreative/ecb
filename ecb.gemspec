@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "ecb"
 
-  # s.add_dependency "money", ">= 3.5.4"
+  s.add_dependency "money", ">= 3.5.4"
   s.add_dependency "activesupport", ">= 3.0.3"
   s.add_dependency "activemodel", ">= 3.0.3"
   s.add_dependency "nokogiri", "= 1.4.2"
