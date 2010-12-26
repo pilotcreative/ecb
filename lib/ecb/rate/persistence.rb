@@ -1,3 +1,6 @@
+require "active_model/serialization"
+require "active_support/concern"
+
 module Ecb
   class Rate
     module Persistence

@@ -1,3 +1,6 @@
+require "active_model/validations"
+require "active_support/concern"
+
 module Ecb
   class Rate
     module Validations

@@ -1,3 +1,6 @@
+require "active_support/concern"
+require "money"
+
 module Ecb
   class Rate
     module Finder

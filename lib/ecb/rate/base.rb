@@ -1,3 +1,4 @@
+require "active_support/concern"
 require "ecb/rate/finder"
 require "ecb/rate/comparable"
 require "ecb/rate/conversions"

@@ -4,13 +4,8 @@ PATH
     ecb (0.0.1)
       activemodel (>= 3.0.3)
       activesupport (>= 3.0.3)
+      money (>= 3.5.4)
       nokogiri (= 1.4.2)
-
-PATH
-  remote: ~/Documents/Projects/money
-  specs:
-    money (3.5.4)
-      i18n (~> 0.4)
 
 GEM
   remote: http://rubygems.org/
@@ -22,6 +17,8 @@ GEM
     activesupport (3.0.3)
     builder (2.1.2)
     i18n (0.5.0)
+    money (3.5.4)
+      i18n (~> 0.4)
     nokogiri (1.4.2)
 
 PLATFORMS
@@ -31,5 +28,5 @@ DEPENDENCIES
   activemodel (>= 3.0.3)
   activesupport (>= 3.0.3)
   ecb!
-  money (>= 3.5.4)!
+  money (>= 3.5.4)
   nokogiri (= 1.4.2)

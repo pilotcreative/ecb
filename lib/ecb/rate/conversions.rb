@@ -1,3 +1,5 @@
+require "active_support/concern"
+
 module Ecb
   class Rate
     module Conversions

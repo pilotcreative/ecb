@@ -1,3 +1,4 @@
+require "money"
 require "nokogiri"
 require "open-uri"
 
