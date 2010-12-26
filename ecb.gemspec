@@ -6,11 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "ecb"
   s.version     = Ecb::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["Mateusz Drożdżyński"]
+  s.email       = ["gems@objectreload.com"]
+  s.homepage    = "http://github.com/objectreload/ecb"
+  s.summary     = %q{European Central Bank for the Money gem}
 
   s.rubyforge_project = "ecb"
 
